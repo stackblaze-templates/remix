@@ -1,0 +1,18 @@
+# Build context exclusions — keep the image lean and secret-free
+.git
+.gitignore
+.github
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+node_modules
+build
+*.log
+.DS_Store
+README.md
+logo.png
