@@ -1,5 +1,12 @@
 .env
+.env.local
+.env.*.local
 *.log
 .DS_Store
 node_modules/
 build/
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
